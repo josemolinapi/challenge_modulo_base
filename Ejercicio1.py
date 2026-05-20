@@ -8,9 +8,9 @@ class Rectangulo:
     def distancia(self):
       distancia = 0
       if self.punto1[0]>self.punto2[0]:
-        distancia = math.sqrt(math.pow(self.punto1[0]-self.punto2[0],2)+math.pow(self.punto1[1]-self.punto2[1],2))
+        distancia = math.sqrt((self.punto1[0]-self.punto2[0]**2)+(self.punto1[1]-self.punto2[1]**2))
       else :
-        distancia = math.sqrt(math.pow(self.punto2[0]-self.punto1[0],2)+math.pow(self.punto2[1]-self.punto1[1],2))
+        distancia = math.sqrt((self.punto2[0]-self.punto1[0]**2)+(self.punto2[1]-self.punto1[1]**2))
       return distancia
 
     def base(self):
