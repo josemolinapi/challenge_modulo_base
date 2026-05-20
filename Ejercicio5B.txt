@@ -1,0 +1,3 @@
+1) la consulta obtiene como resultado una cuenta de los padres de cada ususario que tienen un abuelo masculino registrado, por ejemplo si Juan tiene registrados dos abuelos paternos entonces la cuenta sera 2 en su caso ya que tiene dos padres cuyos padres estan registrados
+2) p1 seria una tabla que contiene a los usuarios, p2 una con los padres de esos usuarios y p3 una con los abuelos de esos usuarios
+3) si cambiaria ya que si persona tiene fotos diarias hay que buscar por la ultima particion disponible 
